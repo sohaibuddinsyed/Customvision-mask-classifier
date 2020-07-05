@@ -3,14 +3,14 @@ from azure.cognitiveservices.vision.customvision.training.models import ImageFil
 from msrest.authentication import ApiKeyCredentials
 import time
 from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
-from msrest.authentication import ApiKeyCredentials
+
  
-ENDPOINT = "https://testcvp.cognitiveservices.azure.com/"
+ENDPOINT = "Your endpoint"
 
 # Replace with a valid key
-training_key = "0c64291277c8425399d3873b8b2a35b0"
-prediction_key = "21dcf849cf844333a0c1f45f6e5937aa"
-prediction_resource_id = "/subscriptions/4199da6c-8f1e-4bfb-a8c1-62ba5bc76d73/resourceGroups/AzurePy/providers/Microsoft.CognitiveServices/accounts/TestCVP-Prediction"
+training_key = "Train key"
+prediction_key = "Pred key"
+prediction_resource_id = "Prediction resource id"
 
 publish_iteration_name = "classifyModel"
 
