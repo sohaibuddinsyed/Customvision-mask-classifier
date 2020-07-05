@@ -17,9 +17,9 @@ publish_iteration_name = "classifyModel"
 credentials = ApiKeyCredentials(in_headers={"Training-key": training_key})
 trainer = CustomVisionTrainingClient(ENDPOINT, credentials)
 
-Create a new project
+#Create a new project
 print ("Creating project...")
-project = trainer.create_project("Y")
+project = trainer.create_project("My Project")
 
 withMask_tag = trainer.create_tag(project.id, "With Mask")
 withoutMask_tag = trainer.create_tag(project.id, "Without Mask")
