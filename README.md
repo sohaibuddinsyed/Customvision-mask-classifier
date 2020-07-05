@@ -5,6 +5,13 @@ The code is based on Python SDK for Custom Vision API and does the follwing:
 * Performs training
 * Makes prediction call to our trained model
 
+## Changes
+You need to update the following into the code from your Azure portal:
+* Training Key
+* API Endpoint
+* Prediction EndPoint
+* Prediction Resource id
+
 ## Usage
     pip install azure-cognitiveservices-vision-customvision
 On successful installation,
